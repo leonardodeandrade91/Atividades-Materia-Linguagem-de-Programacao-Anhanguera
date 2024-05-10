@@ -12,7 +12,7 @@ print(v[0].toString())
 
 g = list()
 
-g.append(Gafanhoto("Jubileu", 22, "M", "CorvoJubileu"))
+g.append(Gafanhoto("Jubileu", 22, "M", "Jubi"))
 g.append(Gafanhoto("Creuza", 12, "F", "Creuzita"))
 
 print(g[0].toString())
