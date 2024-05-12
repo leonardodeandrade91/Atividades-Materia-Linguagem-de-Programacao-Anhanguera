@@ -15,7 +15,7 @@ class Gafanhoto(Pessoa):
         self.__totAssistido += 1
 
     def toString(self):
-        return f"Gafanhoto: \n{super().toString()}\nLogin = {self.__login}\nTotAssistido = {self.__totAssistido}"
+        return f"Gafanhoto: \n{super().toString()}\nLogin = {self.__login}\nTotAssistido = {self.__totAssistido}\n"
 
     def getLogin(self):
         return self.__login

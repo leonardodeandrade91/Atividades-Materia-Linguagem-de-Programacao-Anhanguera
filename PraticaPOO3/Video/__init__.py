@@ -27,7 +27,7 @@ class Video(AcoesVideo):
         self.__reproduzindo = True
 
     def toString(self):
-        return f"Video: \nTitulo = {self.__titulo}\nAvaliacao = {self.__avaliacao}\nViews = {self.__views}\nCurtidas = {self.__curtidas}\nReproduzindo = {self.__reproduzindo}"
+        return f"Video:\nTitulo = {self.__titulo}\nAvaliacao = {self.__avaliacao}\nViews = {self.__views}\nCurtidas = {self.__curtidas}\nReproduzindo = {self.__reproduzindo}"
 
     def getTitulo(self):
         return self.__titulo

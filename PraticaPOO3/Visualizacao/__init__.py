@@ -38,7 +38,7 @@ class Visualizacao:
         self.__filme.setAvaliacao(nova)
 
     def toString(self):
-        return f"\nEspectador = {self.__espectador.toString()}\nFilme = {self.__filme.toString()}"
+        return f"Visualizacao:\nEspectador = {self.__espectador.toString()}\nFilme = {self.__filme.toString()}\n"
 
     def getEspectador(self):
         return self.__espectador
